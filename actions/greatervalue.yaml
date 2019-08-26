@@ -7,17 +7,17 @@ enabled: true
 entry_point: greatervalue.py
 parameters:
   a:
-    type: string
+    type: number
     description: Check greater
     required: true
     position: 1
   b:
-    type: string
+    type: number
     description: Check greater
     required: true
     position: 2
   c:
-    type: string
+    type: number
     description: Check greater
     required: true
     position: 3
