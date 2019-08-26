@@ -11,5 +11,5 @@ class MyAction(Action):
         samplelist.append(d)
         samplelist.append(e)
         
-        print(list)
-        return(True,list)
+        print(samplelist)
+        return(True,samplelist)
