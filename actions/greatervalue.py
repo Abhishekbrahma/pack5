@@ -11,5 +11,6 @@ class MyAction(Action):
             max=b
         else:
            max=c
-        print("greater value is :" max)
+        print("greater value is :{}".format(max))
+        print("greater value is :" +str(max))
         return(True,max)
