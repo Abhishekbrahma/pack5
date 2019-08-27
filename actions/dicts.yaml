@@ -1,0 +1,48 @@
+---
+name: dicts
+pack: pack5
+runner_type: "python-script"
+description: show as dictionary data
+enabled: true
+entry_point: dicts.py
+parameters:
+  a:
+    type: string
+    description: dictionary value
+    required: true
+    position: 1
+  b:
+    type: string
+    description: dictionary value
+    required: true
+    position: 2
+  c:
+    type: string
+    description: dictionary value
+    required: true
+    position: 3
+  d:
+    type: string
+    description: dictionary value
+    required: true
+    position: 4
+  e:
+    type: string
+    description: dictionary value
+    required: true
+    position: 5
+  f:
+    type: string
+    description: dictionary value
+    required: true
+    position: 6
+  g:
+    type: string
+    description: dictionary value
+    required: true
+    position: 7
+  h:
+    type: string
+    description: dictionary value
+    required: true
+    position: 8
