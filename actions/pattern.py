@@ -6,5 +6,5 @@ class MyAction(Action):
     def run(self, a):
         for num in range(a):
 
-            print(num,end=" ")
+            print(num)
         return(True,a)
