@@ -51,33 +51,4 @@ parameters:
     description: dictionary value
     required: true
     position: 9
-  j:
-    type: string
-    description: dictionary value
-    required: true
-    position: 10
-  k:
-    type: string
-    description: dictionary value
-    required: true
-    position: 11
-  l:
-    type: string
-    description: dictionary value
-    required: true
-    position: 12
-  m:
-    type: string
-    description: dictionary value
-    required: true
-    position: 13
-  n:
-    type: string
-    description: dictionary value
-    required: true
-    position: 14
-  o:
-    type: string
-    description: dictionary value
-    required: true
-    position: 15
+    
