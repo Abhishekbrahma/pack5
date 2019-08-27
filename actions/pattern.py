@@ -5,6 +5,6 @@ class MyAction(Action):
 
     def run(self, a):
         for num in range(0,a):
-            for j in range(0,i+1):
+            for j in range(0,num+1):
                 print("* ")
         return(True,a)
