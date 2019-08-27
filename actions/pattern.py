@@ -6,6 +6,6 @@ class MyAction(Action):
     def run(self, a):
         for num in range(0,a):
             for j in range(0,num+1):
-                print(j)
+                print(j, end=' ')
             print("\r")
         return(True,a)
