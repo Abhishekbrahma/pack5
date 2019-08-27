@@ -5,6 +5,6 @@ class MyAction(Action):
 
     def run(self, a,b,c,d,e,f,g,h):
         Dicttest = dict()
-        Dicttest.update({a:b,c:d,e:f,g:h})
+        Dicttest.update({a:{b:c},c:d,e:f,g:h})
         print(Dicttest)
         return(True,Dicttest)
