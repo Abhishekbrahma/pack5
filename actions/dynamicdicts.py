@@ -5,7 +5,7 @@ class MyAction(Action):
     def run(self, a,b,c,d,e,f,g,h,i):
         checkstr=a.join(b)
         Dicttest = dict()
-        if a.startswith(b):
+        if b.startswith(a):
             Dicttest.update({a:{b:c},d:e,f:g,h:i})
         elif c.startswith(d):
             Dicttest.update({a:b,c:{d:e},f:g,h:i})

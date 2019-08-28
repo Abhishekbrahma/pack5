@@ -1,0 +1,7 @@
+---
+name: consumeapi
+pack: pack5
+runner_type: "python-script"
+description: consume api
+enabled: true
+entry_point: consumeapi.py
