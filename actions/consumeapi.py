@@ -4,6 +4,6 @@ import requests
 
 class MyAction(Action):
     def run(self):
-        req = requests.get('https://github.com/timeline.json')
-        print(req)
-        return(True,req)
+        reqmsg = requests.get('https://github.com/timeline.json')
+        print(reqmsg)
+        return(True,reqmsg)
