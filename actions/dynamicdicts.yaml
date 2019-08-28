@@ -1,10 +1,10 @@
 ---
-name: dicts
+name: dynamicdicts
 pack: pack5
 runner_type: "python-script"
-description: show as dictionary data
+description: show dictionary data dynamically
 enabled: true
-entry_point: dicts.py
+entry_point: dynamicdicts.py
 parameters:
   a:
     type: string
@@ -46,5 +46,3 @@ parameters:
     description: dictionary value
     required: true
     position: 8
-    
-    
