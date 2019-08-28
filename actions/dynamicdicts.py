@@ -11,6 +11,6 @@ class MyAction(Action):
         elif f in a:
              Dicttest.update({a:{f:g},b:c,d:e,h:i)
         elif h in a:
-             Dicttest.update({a:{h:i},b:c,d:e,f:g,h:i)
+             Dicttest.update({a:{h:i},b:c,d:e,f:g)
         print(Dicttest)
         return(True,Dicttest)
