@@ -4,6 +4,6 @@ import requests
 
 class MyAction(Action):
     def run(self):
-        reqmsg = requests.get('https://github.com/timeline.json')
-        print(reqmsg)
+        reqmsg = requests.get('http://api.open-notify.org/iss-pass.json')
+        print(reqmsg.status_code)
         return(True,reqmsg)
